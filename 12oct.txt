@@ -1,0 +1,225 @@
+string is a collection of characters
+string is a predefined java class 
+string also behave like data type
+it is a final class of java,if class is final it means class cnanot be inherit
+string objects are immutable
+$ Premitive = value type.
+premitive = behave in immutable way.
+What is premitive datatype/ simple type.
+intern()is a method in a string this method is used to check the string exist in pool or not.
+
+premitive= primary type.
+premitive = inspired with c, c++
+it is also called value type 
+because it store value only
+int float double etc small case (internally they are key words )
+keywords are reserved words, and compiler knows these.
+so it know how much memory is going to allocate for premitive,so this is get decide oon compiler.
+*Immutable means change as per the need to make the copy *.   
+$ Nonpremitive = reference type/complex type.
+it store the reference(Address)
+Variable is capable to store some small byte of data(4,8 byte)
+~ String is a collection of characters.
+java makes a memory at the backa=end calledd heap called object in this a sapce called string
+there are two ways to make object 
+1~ is literal inside the pool(1 or 0 object) 
+2~ is new = is makes object ourside the pool(2 or 1 object)
+Q.How stringbuilder is muthable ?
+Q.how string buffer works internally
+Q.diff bw string buffer and string builder 
+input:aMit sRIVAStaVA
+Output:Amit Srivastava
+using string method  
+StringBuffer is synchronized i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously.	1.StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+2)	StringBuffer is less efficient than StringBuilder.|	StringBuilder is more efficient than StringBuffer.
+3)	StringBuffer was introduced in Java               | StringBuilder was introduced in Java 1.5                                                                                      
+
+
+
+*******30sept******
+problem solve 
+iterative problems 
+recursive problem
+C=0
+3456
+0-9 Base 10
+3456/10,c=1,num=num/10;c=c+1;
+345/10,c=2
+34/10,c=3
+3/10,c=4
+print no from starting 
+12345
+1
+2
+3
+4
+5
+by quotient and 
+string buffer is used to increase the capacity of string length when new modification is needed then in the string then string buffer is needed.
+
+new capacity = 2*old capacity+2
+if length is greater than old them the new formula is =
+string buffer is used where synchronizatoion is used
+string builder is used when synchronizatoion and not synchronizatoion is used here is a keyword 
+*A-FULLSTACK developer
+B-FRONTEND DEVELOPER(reACT js)
+C-Backend developer
+D-mern Stack,meanStack
+E-Mobile app developer(flutter)
+F-AI(python,maths)
+interview preparation developer need 
+java-oops+ooad+solid+dry run+god+exception handling+file io+networking+db+ threads+gui+
+outcome: one project
+dsa(400+problem self solve)
+dbms
+networking
+os* 
+Q-num=97854
+went to the even place
+and add them like 7 and 5 =12 if its modulus 9 is 0 then it is become a lucky no.
+Q-reverse the no 
+1234
+out=4321
+Q-rotate the no
+12345
+out= 54321
+Q= prime no devide by self or 1(check on small no and large no ,squareroot)
+Q=armstrong no 1 to n(sum of power of number of digit of everv digit is equal to the origial no )
+
+quotient= / devide
+reminder = % modulus 
+
+*********12 oct 22*********
+work of input stream
+taking input from three wways
+1 keyboard
+2 network
+3 file
+when keyboard giving input then system.in is used.
+streaming = flow of data Ex-pipe fill the coller;
+buffering = video comes from database, chunk of data which predefined the size by sender,
+piece of data Ex-bucket fill the coller;
+scanner is a buffer, 
+but system.in.read()takes the input from user not scanner.
+
+
+Website= code for win;
+   ************class8(19/10/22)************
+
+1   prime no %2 or %3
+   then increased by 6;
+2 count digit 
+3reverse no
+divide by 10 than+
+code for win
+*******************2nov2022*****************
+Q. 20 questions in 15 days.
+Recursion = 
+-Call stack
+-local variables memory initialization
+-return statement working
+Call Stack(lifo)=call the function one by one call stack maintain the function call
+-recursion id=s definded as process calling itself.
+-breaking of large problem into small  instances
+int fact(n)
+{ 
+   if(n==1) return 1;
+   int x = fact(n=1);
+   (return x*n;)
+}
+   fact(1)
+   n=2 fact(2) n*x=2
+   n=3 fact(3) n*x=6
+   n=4 fact(4) n*x=24
+   n=5 fact(5) n*x=120
+   
+
+   print
+   5
+   3
+   1
+   2
+   4
+   -power of a no.
+   -count zero in a digit.
+   -sum of a digit.
+*******************4nov2022****************
+recursion program contains 
+1~base case
+2~processing logic
+3~small problem
+reverse a string
+3 type of recursion
+head 
+tail 
+linear
+Snigle branch recursion 
+multi branch recursuion 
+
+fibonacci series 
+check array is sorted or not 
+pattern 1
+*
+**
+***
+****
+*****
+pattern 2
+*****
+****
+***
+**
+*
+pattern 3
+1
+2 3
+4 5 6
+7 8 9 10
+*******************9nov22***************
+ whiteboard round for interview--->>>  
+ recursion backtracking
+ ********SkillRiser********
+ \\25% study
+ \\50% self
+ \\25% repeat
+
+ $$$$$$$$$$ Round 1 $$$$$$$
+            (1) apti,reasoning,english+
+            (2) oops,dbms,networking,os,dsa}
+ $$$$$$$$$$ round 2 $$$$$$$$
+            (3) 2 to 3 questions.
+ $$$$$$$$$$ Round 3 $$$$$$
+            (4) project 
+            (5) website or mobile app or api.
+      Q frequency of each character ramkumar@gmail.com(hashing-constant time key=fridge value=fruits{hashmap})
+****************16nov2022***************
+            (doing questios in time limit)
+####****@@@@%%%%~~~~$$${Flutter Roadmap}$$$~~~~%%%%@@@@****####
+Homework- hashmap array list using recursion 
+Replace pi value with 3.14
+i/p: "3+pi*
+________TEST NEXT WEEK 18Nov2022_______
+LOOPs
+30 questions from void 
+30 questions from int
+eg armstrong
+void armstrong 
+boolean armstrong
+array search and get all the search occurence 
+array is sorted or not 
+array search and replace all the occurence 
+array all element sum return /print 
+array all elements cube(each element )return /print
+
+
+string reverse 
+string palemdrome 
+string title case
+string search 
+string replace
+Medium bloging by brain mentors
+Branch recursion
+Subsequence of a sring
+str ="abc"
+permutation pattern
+
